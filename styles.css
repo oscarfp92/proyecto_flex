@@ -1,6 +1,10 @@
+:root {
+  --color_primary: rgba(9, 102, 71, 0.575);
+}
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   width: 100%;
+  background-color: rgba(92, 184, 153, 0.24);
 }
