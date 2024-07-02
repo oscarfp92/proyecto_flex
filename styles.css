@@ -1,6 +1,6 @@
 :root {
   --color_primary: rgb(25, 59, 48);
-  --color_secundary: rgb(59, 117, 99);
+  --color_secundary: rgb(50, 104, 87);
 }
 body {
   margin: 0;
@@ -24,10 +24,17 @@ header{
 header img{
   width: 8%;
 }
+h1{
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-style: italic;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 nav{
   background-color: white;
   width: 100%;
   padding: 1% 0%;
+  white-space: nowrap;
 }
 .generos a{
   color: black;
@@ -66,7 +73,8 @@ h2{
   font-size: xx-large;
   width: 100%;
   margin-top: 1%;
-  text-align: center;
+  text-align: start;
+  text-transform: uppercase;
 }
 section{
 width: 50%;
@@ -101,4 +109,27 @@ article img{
   display: flex;
   flex-wrap: wrap;
   text-align: justify;
+}
+footer{
+  position: static;
+  background-color: black;
+  padding-bottom: 1%;
+}
+footer ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+footer a{
+  color: black;
+  border-left:2px solid black;
+  border-right: 2px solid black;
+  padding:0px 10px;
+  font-size: large;
+}
+footer p{
+color: white;
+text-align: center;
+font-style: italic;
+font-size: small;
 }
