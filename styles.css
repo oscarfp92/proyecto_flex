@@ -123,6 +123,7 @@ footer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  min-width: 710px;
 }
 footer .navfooter {
   display: flex;
