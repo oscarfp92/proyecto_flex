@@ -33,14 +33,19 @@ h1{
 nav{
   background-color: white;
   width: 100%;
-  padding: 1% 0%;
   white-space: nowrap;
+  min-width: 710px;
+}
+.generos li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .generos a{
   color: black;
   border-left:2px solid black;
   border-right: 2px solid black;
-  padding: 15%;
+  padding: 0% 10%;
   font-size: large;
 }
 .generos{
@@ -56,6 +61,7 @@ main{
   padding: 2%;
   justify-content: center;
   gap: 2%;
+  min-width: 710px ;
 }
 article{
   display: flex;
