@@ -2,7 +2,7 @@
   --color_primary: rgb(25, 59, 48);
   --color_secundary: rgb(50, 104, 87);
 }
-body {
+body{
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -33,6 +33,7 @@ h1{
 nav{
   background-color: white;
   width: 100%;
+  padding: 1% 0%;
   white-space: nowrap;
   min-width: 710px;
 }
@@ -117,25 +118,33 @@ article img{
   text-align: justify;
 }
 footer{
-  position: static;
   background-color: black;
   padding-bottom: 1%;
-}
-footer ul{
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+}
+footer .navfooter{
+  display: flex;
+  width: 100%;
+  background-color: white;
+}
+.navfooter ul{ 
+  display: flex;
+  width: 100%;
   justify-content: space-evenly;
   list-style: none;
 }
-footer a{
+.navfooter a{
   color: black;
-  border-left:2px solid black;
+  border-left: 2px solid black;
   border-right: 2px solid black;
-  padding:0px 10px;
-  font-size: large;
+  padding: 0% 5%;
 }
 footer p{
-color: white;
-text-align: center;
-font-style: italic;
-font-size: small;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-style:italic;
+  font-size: small;
 }
