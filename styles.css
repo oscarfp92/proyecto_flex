@@ -20,6 +20,8 @@ header {
   justify-content: center;
   gap: 2%;
   padding: 2%;
+  width: 100%;
+  min-width: 710px;
 }
 header img {
   width: 8%;
